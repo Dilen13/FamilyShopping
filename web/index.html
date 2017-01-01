@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="sk">
+  <head>
+    <title>Family shopping</title>
+	
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAh9ElFSZ3rdZzY5x_WD3ONLh4y4jbvCCo",
+    authDomain: "familyshopping-ccbc7.firebaseapp.com",
+    databaseURL: "https://familyshopping-ccbc7.firebaseio.com",
+    storageBucket: "familyshopping-ccbc7.appspot.com",
+    messagingSenderId: "658265185066"
+  };
+  firebase.initializeApp(config);
+  
+  function getDBData(){
+	var database = firebase.database();
+	var result;
+	var starCountRef = database.ref('items');
+	console.log(starCountRef);
+        starCountRef.on('value', function (snapshot) {
+		console.log(snapshot.val());
+            var p = snapshot.val();
+			result = result + p;
+		})
+	return result;
+  }
+  
+</script>
+  </head>
+  <body> 
+  <button onclick="alert(getDBData())">Click me</button>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "658265185066",
+    "firebase_url": "https://familyshopping-ccbc7.firebaseio.com",
+    "project_id": "familyshopping-ccbc7",
+    "storage_bucket": "familyshopping-ccbc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658265185066:android:8442c5725696fe11",
+        "android_client_info": {
+          "package_name": "antl.pataky.sk.familyshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658265185066-10c2odmp2lvjbbrfimfbb0cegig5evu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "antl.pataky.sk.familyshopping",
+            "certificate_hash": "4DCDDF5AFCD680D60E7A3BD6B2997551C0A430ED"
+          }
+        },
+        {
+          "client_id": "658265185066-qpf36v83sbqqi97je2cuvglrms6d9out.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdKuI7WonEujk1NalQAEfuBbSo7fvw9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658265185066-qpf36v83sbqqi97je2cuvglrms6d9out.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
